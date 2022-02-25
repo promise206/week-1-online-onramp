@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  height: 80px;
+  width: 100%;
+}
+.navigation-bar{
+  margin-left: 50px;
+  width: 80%;
+}
+.logo{
+  float: left;
+  color: black;
+  font-size: 35px;
+  line-height: 70px;
+  padding: 0 20px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.nav-left{
+  float: left;
+  margin-left: none;
+}
+.nav-right{
+  margin-top: 10px;
+  float: right;
+}
+.nav-right img{
+  width: 30px;
+  border-radius: 50%;
+}
+.nav-left-li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.nav-right-li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+}
+.line{
+  width: 71%;
+  margin-left: 170px;
+}
+.hr{
+  width: 100%;
+}
+.check-btn{
+  font-size: 30px;
+  color: white;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 858px){
+  .checkbtn{
+      display:block;
+  }
+}
+.team{
+  display: flex;
+  width: 100%;
+  margin-left: 160px;
+}
+.team1{
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+}
+.container{
+  background-color: aqua;
+  margin: 20px;
+  margin-top: 0;
+  height: 300px;
+  width: auto;
+  border-radius: 6%;
+}
+.image{
+  width: 100%;
+  height: 300px;
+  border-radius: 6%;
+}
+.product-display{
+  display: flex;
+  width: auto;
+  margin: 10px;
+
+}
+.product{
+  width: 85px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 6%;
+  
+}
+.product-details{
+  width: 50%;
+  height: 300px;
+  float: right;
+  margin: 20px;
+  margin-right: 80px;
+  margin-top: 60px;
+}
+.details-box{
+  margin: 40px;
+  width: 400px;
+}
+.details-box p{
+  color: rgb(255, 153, 0);
+}
+.details-box .description{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.details-box .description p{
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+}
+.price{
+  display: flex;
+}
+.price button{
+  background-color: #d9a4ee;
+  border: none;
+  color: rgb(255, 153, 0);
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 15%;
+  margin-left: 5px;
+}
+.addto{
+  display: flex;
+  margin-top: 40px;
+}
+.addto button{
+  background-color: #fdba02;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 5px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10%;
+  margin-left: 5px;
+}
+
+.addto button img{
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
